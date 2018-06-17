@@ -19,4 +19,6 @@ price = 1.5
 weight = 10
 money = price * weight
 print("单价:%.2f元／斤\t重量:%.2f斤\t\t金额:%.4f元" % (price, weight, money))
-
+# 定义一个小数　输出%号
+scale = 100
+print("数据比例是 %.0f%%" % scale)
