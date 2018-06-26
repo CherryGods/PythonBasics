@@ -69,6 +69,11 @@ def find_card():
 
 
 def card_action(card_dict):
+    """
+    修改功能
+    :param card_dict:
+    :return:
+    """
     action = input("请输入对%s名片的操作:/1.修改/2.删除/0.返回上级菜单" % card_dict["name"])
     if action == "1":
         update = input("请要修改的类型:/1.姓名/2.电话/3.QQ/4.邮箱")
