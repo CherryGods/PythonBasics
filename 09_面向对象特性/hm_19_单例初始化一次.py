@@ -20,6 +20,8 @@ class MusicPlayer:
         print("初始化播放器")
         # 修改初始化标记
         MusicPlayer.init_flag = True
+
+
 # 创建多个对象
 player1 = MusicPlayer()
 print(player1)
